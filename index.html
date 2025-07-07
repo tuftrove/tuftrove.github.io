@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tuftrove 3D Viewer</title>
   <style>
-    /* Jika kamu belum punya file style.css, kamu bisa langsung pakai ini */
-    body, html {
+    html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       overflow: hidden;
     }
+
     spline-viewer {
       width: 100vw;
       height: 100vh;
@@ -21,15 +21,13 @@
 </head>
 <body>
 
-  <!-- Script untuk aktifkan Spline Viewer -->
   <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.20/build/spline-viewer.js"></script>
 
-  <!-- Tampilkan scene -->
   <spline-viewer 
     url="https://prod.spline.design/lwUaVbhVo-YN8mmE/scene.splinecode"
     loading-anim
     interaction-prompt="auto"
   ></spline-viewer>
-      
+
 </body>
 </html>
