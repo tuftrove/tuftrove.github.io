@@ -14,7 +14,7 @@ html, body {
 }
 
 iframe {
-  width: 100%;
+  width: 0%;
   height: 100%;
   border: none;
 }
